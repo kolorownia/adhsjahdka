@@ -70,9 +70,20 @@
         <div class="row justify-content-end">
             <div class="col-12 col-lg-7">
                 <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-3 display-1"><strong>Został ostatni krok</strong></h1>
-                <input id="2137">
-                <button onclick="ZamienNaDziesietna()">
+                <input id="Pole_www">
+                <input id="Pole_wypisu_www">
+                <button onclick="wczytaj()">
+                  kupa
                 </button>
+                <script>
+                  function Wczytaj(){
+                    let www
+                    
+                    www = document.getElementById("Pole_www").value;
+                    document.getElementById("Pole_wypisu_www").value = www;
+                    
+                  }
+                </script>
              
                 
                 
